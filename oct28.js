@@ -7,10 +7,13 @@
 
 // input - array
 // output - true/false
+// declare variable to keep track of true/false
+// loop through array, check type of each element. As soon as one is not number, change the variable to false.
+// Return the boolean variable.
 
 function isNumber(array) {
   let isNum = true;
-  for (i = 0; i < array.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     if (typeof array[i] != "number") {
       isNum = false;
     }
