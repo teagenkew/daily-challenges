@@ -35,3 +35,6 @@ function removeFirstAndLast(str) {
   }
 }
 console.log(removeFirstAndLast(4));
+
+
+// can also use slice(1,-1) goes from index 1 to -1. 
